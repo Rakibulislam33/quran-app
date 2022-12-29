@@ -76,7 +76,7 @@
       }
     },
     mounted() {
-      axios.get('http://api.alquran.cloud/v1/surah')
+      axios.get('https://api.alquran.cloud/v1/surah')
         .then(response => {
           this.suras = response.data.data
         })
